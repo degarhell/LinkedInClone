@@ -5,12 +5,12 @@ import ImageIcon from '@mui/icons-material/Image';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
-import InputOption from "./InputOption";
-import Post from "./Post";
-import { db } from "./firebase";
+import InputOption from "./InputOption.js";
+import Post from "./Post.js";
+import { db } from "./firebase.js";
 import firebase from 'firebase/compat/app';
 import { useSelector } from "react-redux";
-import { selectUser } from "./features/userSlice";
+import { selectUser } from "./features/userSlice.js";
 
 function Feed() {
 

@@ -1,7 +1,7 @@
 import React from "react";
 import './Post.css';
 import { Avatar } from "@mui/material";
-import InputOption from "./InputOption";
+import InputOption from "./InputOption.js";
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';

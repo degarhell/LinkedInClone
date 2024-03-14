@@ -2,7 +2,7 @@ import React from "react";
 import './Sidebar.css'
 import { Avatar } from "@mui/material";
 import { useSelector } from "react-redux";
-import { selectUser } from "./features/userSlice";
+import { selectUser } from "./features/userSlice.js";
 
 function Sidebar() {
 

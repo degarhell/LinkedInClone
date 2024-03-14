@@ -6,10 +6,10 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import HeaderOption from "./HeaderOption";
+import HeaderOption from "./HeaderOption.js";
 import { useDispatch } from "react-redux";
-import { auth } from "./firebase";
-import { logout } from "./features/userSlice";
+import { auth } from "./firebase.js";
+import { logout } from "./features/userSlice.js";
 
 function Header(){
 
